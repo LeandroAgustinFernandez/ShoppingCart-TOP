@@ -1,0 +1,38 @@
+.home {
+    display: flex;
+    align-items: center;
+    color: rgb(253, 253, 253);
+    flex-direction: column;
+    flex: 1;
+}
+
+.home .home-title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.home .home-text {
+    margin: 0;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.home .home-button {
+    margin: 1em 0;
+    padding: 7px 20px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 1px solid rgb(26, 25, 25);
+    background-color: rgb(26, 25, 25);
+    color: rgb(253, 253, 253);
+    transition: all 0.5s;
+}
+
+.home .home-button:hover {
+    border: 1px solid rgb(253, 253, 253);
+    background-color: rgb(253, 253, 253);
+    color: rgb(26, 25, 25);
+    box-shadow: 1px 1px 4px black;
+}

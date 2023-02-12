@@ -1,0 +1,70 @@
+.cart {
+    display: flex;
+    justify-content: center;
+}
+
+.cart .cart-container {
+    width: 35%;
+}
+
+.cart .cart-container .card {
+    display: flex;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: .1rem;
+}
+
+.cart .cart-container .card .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart .cart-container .card .card-header .card-img {
+    width: 60%;
+}
+
+.cart .cart-container .card .card-body {
+    padding: 20px;
+}
+
+.cart .cart-container .card .card-body .card-body-title {
+    font-size: 1.3rem;
+}
+
+.cart .cart-container .card .card-body .card-body-text {
+    font-size: .9rem;
+}
+
+.cart .cart-container .card .card-body .card-body-button {
+    font-size: 1.1rem;
+    border: none;
+    padding: 5px 10px;
+    margin: auto .3rem;
+    cursor: pointer;
+    background-color: #000;
+    color: white;
+    transition: all .5s;
+}
+
+.cart .cart-container .card .card-body .card-body-button:hover {
+    background-color: white;
+    color: #000;
+    box-shadow: 1px 1px 2px black;
+}
+
+.cart .cart-container .card .card-body span {
+    padding: 0px 10px;
+}
+
+@media (max-width: 1200px) {
+    .cart .cart-container {
+        width: 70%;
+    }
+}
+
+@media (max-width: 765px) {
+    .cart .cart-container {
+        width: 90%;
+    }
+}
